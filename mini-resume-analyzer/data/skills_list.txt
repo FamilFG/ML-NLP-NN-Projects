@@ -1,0 +1,162 @@
+java
+spring
+spring boot
+spring security
+hibernate
+jpa
+jdbc
+maven
+gradle
+jwt
+oauth2
+openid
+rest api
+graphql
+soap
+microservices
+api gateway
+service discovery
+eureka
+config server
+spring cloud
+feign client
+resilience4j
+circuit breaker
+load balancing
+rate limiting
+websocket
+grpc
+kafka
+rabbitmq
+active mq
+event driven architecture
+message queue
+redis
+memcached
+elasticsearch
+logstash
+kibana
+elk stack
+prometheus
+grafana
+opentelemetry
+jaeger
+zipkin
+docker
+docker compose
+kubernetes
+helm
+terraform
+ansible
+jenkins
+github actions
+gitlab ci
+ci/cd
+linux
+bash
+nginx
+apache
+tomcat
+postgresql
+mysql
+mongodb
+cassandra
+dynamodb
+sqlite
+oracle
+ms sql
+database indexing
+sql
+pl/sql
+nosql
+data structures
+algorithms
+system design
+design patterns
+clean architecture
+ddd
+solid
+unit testing
+integration testing
+junit
+mockito
+testcontainers
+swagger
+openapi
+postman
+python
+fastapi
+flask
+django
+pandas
+numpy
+scikit-learn
+tensorflow
+pytorch
+keras
+machine learning
+deep learning
+nlp
+computer vision
+opencv
+matplotlib
+seaborn
+xgboost
+lightgbm
+catboost
+random forest
+logistic regression
+svm
+knn
+gradient boosting
+neural networks
+cnn
+rnn
+lstm
+transformers
+huggingface
+tokenization
+feature engineering
+data preprocessing
+data cleaning
+hyperparameter tuning
+cross validation
+model evaluation
+precision
+recall
+f1 score
+roc auc
+confusion matrix
+mlops
+mlflow
+dvc
+airflow
+spark
+hadoop
+pyspark
+data pipeline
+etl
+big data
+aws
+ec2
+s3
+lambda
+rds
+cloudwatch
+iam
+ecs
+eks
+azure
+azure devops
+gcp
+google cloud storage
+bigquery
+firebase
+git
+github
+bitbucket
+jira
+confluence
+agile
+scrum
+kanban

@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+scikit-learn
+pandas
+numpy
+pymupdf
+joblib
+python-multipart
+pytesseract
+pdf2image
+pillow
+tqdm
+python-dotenv
