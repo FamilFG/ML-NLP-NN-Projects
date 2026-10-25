@@ -1,0 +1,36 @@
+﻿version: '3.8'
+
+services:
+  dlp-labse-model:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: dlp-labse-model
+    restart: unless-stopped
+    ports:
+      - "8082:8082"
+    environment:
+      - MODEL_ID=FamilFG/dlp-labse
+      - SUBFOLDER=labse-finetuned-freeze6
+      - OMP_NUM_THREADS=4
+      - HF_TOKEN=${HF_TOKEN:-}
+    deploy:
+      resources:
+        limits:
+          cpus: '8'
+          memory: 8G
+        reservations:
+          cpus: '4'
+          memory: 4G
+    volumes:
+      - hf_cache:/root/.cache/huggingface
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8082/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+      start_period: 30s
+
+volumes:
+  hf_cache:
+    name: dlp_labse_hf_cache
